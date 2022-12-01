@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-exec('import subprocess; subprocess.call(["echo", "#pythoniscool"])')
+_import_("os").write(1, "#pythoniscool\n".encode("UTF-8"))
